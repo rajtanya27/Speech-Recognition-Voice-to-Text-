@@ -1,0 +1,25 @@
+This project is a simple Python-based voice recognition tool that allows users to open websites or perform Google searches using voice commands.
+
+**************
+✨ Features
+🎤 Captures real-time audio input using your microphone
+
+🧠 Converts speech to text with Google’s Speech Recognition API
+
+🌐 Opens the recognized text in Google Chrome using the webbrowser module
+
+🛠️ Technologies Used
+speech_recognition – for converting spoken words to text
+
+pyaudio – for capturing microphone input
+
+webbrowser – to launch Chrome with the recognized input
+
+💡 How It Works
+The program listens to your voice through the microphone.
+
+It uses Google’s speech recognition to convert speech to text.
+
+The resulting text is opened in Chrome as a URL or search query.
+
+✅ Ideal for experimenting with voice interfaces and basic AI-driven automation.
